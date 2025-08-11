@@ -1,0 +1,36 @@
+.button-wrapper {
+  position: relative;
+  display: inline-block;
+  border-radius: 38px;
+  padding: 3px; /* This creates the border thickness */
+  background: linear-gradient(270deg, rgb(3, 112, 255), red, green, rgb(26, 2, 111), teal, rgb(203, 196, 2),orange, yellow);
+  background-size: 600% 600%;
+  animation: animate-border 6s linear infinite;
+}
+
+@keyframes animate-border {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.solid-button {
+  background-color: #00193e; /* Solid dark blue background */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 35px; /* Slightly less to stay inside the outer border */
+  padding: 12px 24px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+
+.solid-button:hover {
+    background-color:  #001f4d;
+    
+}

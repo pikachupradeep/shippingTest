@@ -1,0 +1,15 @@
+.hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 136, 0.526), rgba(28, 23, 117, 0.416)), url(../../public/ship.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  
+}
+
+
+#font-family {
+  font-family:'poppins';
+  letter-spacing: 2px;
+  font-weight: 700;
+}
