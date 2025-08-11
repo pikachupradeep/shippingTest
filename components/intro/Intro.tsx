@@ -88,7 +88,9 @@ export default function Intro() {
           <div className="flex flex-col lg:flex-row gap-8 items-start">
             {/* Left Image - Client Reception Area */}
             <div className="flex-1">
-              <img
+              <Image
+                width={600}
+                height={600}
                 src="/nat2.jpg"
                 alt="Client Reception Area"
                 className="rounded-md shadow-md w-full"
@@ -115,7 +117,9 @@ export default function Intro() {
 
             {/* Right Image - Operations Department */}
             <div className="flex-1">
-              <img
+              <Image
+                width={600}
+                height={600}
                 src="/nat4.jpg"
                 alt="Operations Department"
                 className="rounded-md shadow-md w-full"
