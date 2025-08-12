@@ -19,7 +19,7 @@ const FeaBox = ({ title, desc, children, className }: FeatureBox) => {
   // Check if the base text color is white
   const isTextWhite = className.includes("text-white");
 
-  const textBaseClass = isTextWhite ? "text-white" : "text-white";
+  const textBaseClass = isTextWhite ? "text-white" : "text-blue-800";
   const textHoverClass = isTextWhite ? "group-hover:text-blue-800" : "";
 
   return (

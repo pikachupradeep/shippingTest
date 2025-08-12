@@ -91,7 +91,7 @@ export default function Intro() {
               <Image
                 width={600}
                 height={600}
-                src="/nat2.jpg"
+                src="/cat2.jpg"
                 alt="Client Reception Area"
                 className="rounded-md shadow-md w-full"
               />
@@ -120,7 +120,7 @@ export default function Intro() {
               <Image
                 width={600}
                 height={600}
-                src="/nat4.jpg"
+                src="/cat4.jpg"
                 alt="Operations Department"
                 className="rounded-md shadow-md w-full"
               />
