@@ -33,7 +33,7 @@ export default function Navbar() {
      ))}
     </ul>
 
-     <div className="sm:hidden">
+     <div className="sm:hidden cursor-pointer">
       <SheetDemo />
      </div>
     </header>
